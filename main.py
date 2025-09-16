@@ -42,4 +42,4 @@ five_times_three = multiply(5,3)
 print(five_times_three)
 # you can also call the function directly in another
 print(multiply(20,6)) # funcs evaluated from INSIDE to OUTSIDE
-print
+
