@@ -78,3 +78,28 @@ class_roster.pop() # remove last item
 
 # Check if item exists in a list
 print(13 in lottery_nums) 
+
+# Tuples
+
+student = {'Kevin', 29, 'Game design', 4.0}
+print(student)
+# student[3]=5.0 Cant reassign item
+
+# sets
+# unsorted stores immutable items
+# no duplicates
+songs = {'stranger','2005','mutt'}
+colors = {'red', 'blue', 'yellow','yellow'}
+print(set(colors))
+songs.add('mutt')
+print(songs)
+
+# dictionaries
+# mutable them sleves but the keys need to be immutable types
+# {key:value}, pairs, keys must be unique
+# unordered, no index
+grade_requirements = {9:['Bio','Maths','English','P.E.'],
+                      10:['Chem','Maths','English','P.E.'],
+                      11:['Physics','Maths','English','P.E.'],
+                      12:['Maths', 'English','P.E.'],
+                      }
