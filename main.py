@@ -95,7 +95,7 @@ songs.add('mutt')
 print(songs)
 
 # dictionaries
-# mutable them sleves but the keys need to be immutable types
+# mutable themselves but the keys need to be immutable types
 # {key:value}, pairs, keys must be unique
 # unordered, no index
 grade_requirements = {9:['Bio','Maths','English','P.E.'],
@@ -103,3 +103,32 @@ grade_requirements = {9:['Bio','Maths','English','P.E.'],
                       11:['Physics','Maths','English','P.E.'],
                       12:['Maths', 'English','P.E.'],
                       }
+'''print(10 > 5)
+print(5 > 10)
+print(10>=10)
+print('a'>'b')
+print('cat'<'cot')
+print('T'=='t')
+print('T'<'t') #Capital letters come first(Smaller in ASCII)'''
+# Checking equality v.s. equality
+list_a = [1,2,3]
+list_b = [1,2,3]
+print(list_a == list_b)
+print(list_a is list_b)
+bool_a = True 
+print(bool_a is True)
+print(bool_a is not False)
+bool_b = False
+print(bool_a and bool_b)
+print(bool_a or bool_b)
+
+#Conditionals/Branching/Selection
+def can_drive(age):
+    if(age >= 17):
+        print('license 4 u')
+    elif(age == 16):
+        print('permit 4 u, Take Lessons')
+    else:
+        print('No Drivin 4 U')
+
+can_drive(int(input('AGE:')))
