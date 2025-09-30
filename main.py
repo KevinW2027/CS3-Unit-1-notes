@@ -131,4 +131,41 @@ def can_drive(age):
     else:
         print('No Drivin 4 U')
 
-can_drive(int(input('AGE:')))
+can_drive(1)
+# Iteration (Repetition)
+# While loop run until a condition is no longer true
+'''
+max = 16
+counter = 7
+while (counter < max):
+    print(counter)
+    counter += 1
+'''
+# for-in loop iterate through a collection
+for student in class_roster:
+    print(student)
+
+# for-in Range
+#prints 0-3
+'''
+for num in range(4):
+    print(num)
+
+for num in range(1,5):
+    print(num)
+'''
+# range(start,stop,step) stop not included
+for num in range(1,10,2):
+    print(num)
+
+
+# enumerate() lets you loop through index and item
+for index, item in enumerate(class_roster):
+    print(f'Item: {item}is at index"{index}')
+
+hex_colors = {
+    'red':'#ff0000'
+
+}
+for color,code in hex_colors.item():
+    print(f'{color} is a {code}')
